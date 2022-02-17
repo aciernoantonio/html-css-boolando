@@ -41,6 +41,11 @@ img{
 
 /* main */
 
+.info{
+    position: absolute;
+    z-index: 1000;
+}
+
 .discount{
     background-color: var(--discount--color);
     top: 90%;
@@ -61,4 +66,22 @@ img{
     position: absolute;
     top: 5%;
     right: 0;
+}
+
+.main_img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 900;
+}
+
+.hover_img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 800;
+}
+
+.product:hover > .main_img{
+    z-index: 700;
 }
