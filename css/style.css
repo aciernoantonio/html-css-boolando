@@ -3,3 +3,32 @@
     margin: 0;
     padding: 0;
 }
+
+/* utility */
+
+:root{
+    --discount--color: #EB0037;
+    --ecology-color: #00875A;
+    --price-color: #FF0000;
+}
+
+.box{
+    width: 340px;
+    height: 424px;
+    display: inline-block;
+    background-color: aquamarine;
+}
+
+img{
+    width: 340px;
+    height: 424px;
+    object-fit: cover;
+}
+
+.products{
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* main */
