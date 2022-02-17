@@ -85,3 +85,18 @@ img{
 .product:hover > .main_img{
     z-index: 700;
 }
+
+.description{
+    text-align: left;
+    position: absolute;
+    left: 0;
+    top: 100%;
+}
+
+.price{
+    color: var(--price-color);
+}
+
+.old_price{
+    text-decoration: line-through;
+}
